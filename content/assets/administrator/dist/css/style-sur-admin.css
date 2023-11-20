@@ -1,0 +1,87 @@
+.voirBtn{
+    float: right;
+    position: relative;
+    bottom: 5px;
+  }
+  .inputfile{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  .inputfile + label {
+      font-size: 1.25em;
+      color: white;
+      display: inline-block;
+  }
+
+
+  @media (min-width: 990px){
+    .activy-ty{
+      margin-left: 1%;
+    }
+  }
+  @media (max-width: 576px){
+    .activy-ty{
+      margin-top: 4%;
+    }
+  }
+  .produitListe{
+    box-shadow: 0 0 2px gray;
+  }
+  .produitListe:hover{
+    box-shadow: 0 0 20px gray;
+  }
+  .FormationListe{
+    box-shadow: 0 0 2px gray;
+  }
+  .FormationListe:hover{
+    box-shadow: 0 0 20px gray;
+  }
+  .ServiceListe{
+    box-shadow: 0 0 2px gray;
+  }
+  .ServiceListe:hover{
+    box-shadow: 0 0 20px gray;
+  }
+
+  /*.marqueListe{
+      text-align: center;
+    }
+    .marqueListe{
+      display: flex;
+    }*/
+    .inputfile{
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
+      z-index: -1;
+    }
+    .inputfile + label {
+        font-size: 1.25em;
+        color: white;
+        display: inline-block;
+    }
+    .marqueOne{
+      box-shadow: 0 0 4px gray;
+      margin: 2%;
+      padding: 2%;
+      float: left;
+    }
+    .marqueOne label{
+      font-size: 15px;
+    }
+    .marqueOne{
+      text-align: center;
+    }
+    .delMarque i{
+      cursor: pointer;
+      font-size: 21px;
+    }
+    .delMarque i:hover{
+      color: #007bff;
+    }
